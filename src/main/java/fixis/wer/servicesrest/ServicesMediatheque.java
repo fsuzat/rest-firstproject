@@ -1,5 +1,7 @@
 package fixis.wer.servicesrest;
 
+import mediatheque.metier.Adherent;
+
 import javax.ws.rs.*;
 
 @Path("mediatheque")
@@ -50,5 +52,10 @@ public class ServicesMediatheque {
     {
         return "Demande de suppression des adhérents nés en "+ annee;
 
+    }
+    @GET
+    @Path("aleatoire")
+    public String donnerAdherent() throws Exception {
+        return Adherent.getAdherentAleatoire().toString();
     }
 }
