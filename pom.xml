@@ -44,12 +44,12 @@
             <!-- use the following artifactId if you don't need servlet 2.x compatibility -->
             <!-- artifactId>jersey-container-servlet</artifactId -->
         </dependency>
-        <!-- uncomment this to get JSON support
+        <!-- uncomment this to get JSON support -->
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
         </dependency>
-        -->
+
         
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -57,9 +57,15 @@
             <version>2.4</version>
             <scope>provided</scope>
         </dependency>
-        
-        
-        
+
+        <dependency>
+            <groupId>mediatheque.metier</groupId>
+            <artifactId>mediatheque.metier</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>C:/apache-tomcat-8.5.83/lib/mediatheque.jar</systemPath>
+        </dependency>
+
     </dependencies>
     <properties>
         <jersey.version>2.7</jersey.version>

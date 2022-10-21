@@ -2,6 +2,7 @@
   <artifact name="mediatheque">
     <output-path>$PROJECT_DIR$/out/artifacts/mediatheque</output-path>
     <root id="root">
+      <element id="artifact" artifact-name="mediatheque" />
       <element id="library" level="project" name="mediatheque" />
     </root>
   </artifact>
