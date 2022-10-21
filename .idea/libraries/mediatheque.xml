@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mediatheque">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Sauvegarde/formation_java_2022/mediatheque.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
